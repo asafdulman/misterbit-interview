@@ -1,0 +1,30 @@
+@import './cmps/footer';
+@import './cmps/navbar';
+@import './cmps/hero';
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: red;
+    // font-family: 'Livvic', sans-serif;
+}
+
+.app {
+    // width: 1440px;
+    // margin: 0 auto;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 375px) {
+    .app {
+        width: 375px;
+    }
+}
