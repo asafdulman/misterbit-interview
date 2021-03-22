@@ -1,11 +1,13 @@
 import topImg from '../assets/img/enjoy-desktop.jpg'
 import bottomImg from '../assets/img/family-bottom-desktop.jpg'
 import familyBackImg from '../assets/img/family-bg-left.svg'
+import familyRight from '../assets/img/family-right.png'
 
 export function Family() {
     return (
         <div className="family-outer-box">
                 <img className="family-bg-img" src={familyBackImg} alt=""/>
+                <img className="family-bg-right" src={familyRight} alt=""/>
             <div className="family-box">
                 <div className="family-top-box">
                     <img className="family-top-img" src={topImg} alt="" />

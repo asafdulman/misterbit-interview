@@ -91,6 +91,13 @@
     }
 }
 
+.family-bg-right {
+    position: absolute;
+    bottom: 400px;
+    right: 50px;
+
+}
+
 @media (max-width: 375px) {
     .family-outer-box {
         width: 375px;
@@ -98,6 +105,11 @@
 
     .family-bg-img {
         display: none;
+    }
+    
+    .family-bg-right {
+        display: none;
+
     }
     
     .family-box {
