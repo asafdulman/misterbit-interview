@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/misterbit-interview/static/css/main.e4c79a87.chunk.css",
-    "main.js": "/misterbit-interview/static/js/main.b70e256d.chunk.js",
-    "main.js.map": "/misterbit-interview/static/js/main.b70e256d.chunk.js.map",
+    "main.css": "/misterbit-interview/static/css/main.a9630636.chunk.css",
+    "main.js": "/misterbit-interview/static/js/main.2f577a75.chunk.js",
+    "main.js.map": "/misterbit-interview/static/js/main.2f577a75.chunk.js.map",
     "runtime-main.js": "/misterbit-interview/static/js/runtime-main.996ae10e.js",
     "runtime-main.js.map": "/misterbit-interview/static/js/runtime-main.996ae10e.js.map",
     "static/js/2.90fe5e27.chunk.js": "/misterbit-interview/static/js/2.90fe5e27.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.c718c3ff.chunk.js": "/misterbit-interview/static/js/3.c718c3ff.chunk.js",
     "static/js/3.c718c3ff.chunk.js.map": "/misterbit-interview/static/js/3.c718c3ff.chunk.js.map",
     "index.html": "/misterbit-interview/index.html",
-    "static/css/main.e4c79a87.chunk.css.map": "/misterbit-interview/static/css/main.e4c79a87.chunk.css.map",
+    "static/css/main.a9630636.chunk.css.map": "/misterbit-interview/static/css/main.a9630636.chunk.css.map",
     "static/js/2.90fe5e27.chunk.js.LICENSE.txt": "/misterbit-interview/static/js/2.90fe5e27.chunk.js.LICENSE.txt",
     "static/media/enjoy-desktop.06399aa5.jpg": "/misterbit-interview/static/media/enjoy-desktop.06399aa5.jpg",
     "static/media/family-bg-left.6955f6f1.svg": "/misterbit-interview/static/media/family-bg-left.6955f6f1.svg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.996ae10e.js",
     "static/js/2.90fe5e27.chunk.js",
-    "static/css/main.e4c79a87.chunk.css",
-    "static/js/main.b70e256d.chunk.js"
+    "static/css/main.a9630636.chunk.css",
+    "static/js/main.2f577a75.chunk.js"
   ]
 }
