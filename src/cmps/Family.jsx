@@ -1,9 +1,11 @@
 import topImg from '../assets/img/enjoy-desktop.jpg'
 import bottomImg from '../assets/img/family-bottom-desktop.jpg'
+import familyBackImg from '../assets/img/family-bg-left.svg'
 
 export function Family() {
     return (
         <div className="family-outer-box">
+                <img className="family-bg-img" src={familyBackImg} alt=""/>
             <div className="family-box">
                 <div className="family-top-box">
                     <img className="family-top-img" src={topImg} alt="" />
@@ -13,7 +15,6 @@ export function Family() {
                     </div>
                 </div>
                 <div className="family-bottom-box">
-
                     <div className="family-bottom-details">
                         <h1>The most locally sourced food</h1>
                         <p>All our ingredients come directly from our farm or local fishery. So you can be sure that you’re eating the freshest, most sustainable food.</p>

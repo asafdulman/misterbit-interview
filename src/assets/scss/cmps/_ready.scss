@@ -34,3 +34,35 @@
         background-color: transparent;
     }
 }
+
+@media (max-width: 375px) {
+
+    .ready-outer-box {
+        width: 375px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: -290px;
+    }
+
+    .ready-box {
+        width: 330px;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 40px;
+            text-align: center;
+            letter-spacing: -0.4px;
+            color: #FFFFFF;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 25px 45px;
+        }
+    }
+
+}

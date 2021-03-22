@@ -2,6 +2,7 @@
     width: 1440px;
     margin: 0 auto;
     background-color: #F2F2F2;
+    position: relative;
 }
 
 .family-box {
@@ -14,8 +15,7 @@
 .family-top-box {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
-    // position: relative;
+    margin-bottom: 20px;
 
     img {
         width: 540px;
@@ -25,12 +25,18 @@
     }
 }
 
+.family-bg-img {
+    position: absolute;
+    top: 200px;
+}
+
 .family-top-details {
     margin-top: 150px;
     height: 275px;
     width: 445px;
 
     h1 {
+        width: 400px;
         font-style: normal;
         font-weight: bold;
         font-size: 40px;
@@ -82,5 +88,90 @@
         line-height: 30px;
         letter-spacing: -0.225px;
         color: #242B37;
+    }
+}
+
+@media (max-width: 375px) {
+    .family-outer-box {
+        width: 375px;
+    }
+
+    .family-bg-img {
+        display: none;
+    }
+    
+    .family-box {
+        width: 375px;
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .family-top-box {
+        width: 330px;
+        margin: 0 auto;
+        margin-right: 30px;
+        flex-direction: column;
+
+        img {
+            width: 100%;
+            height: 400px;
+            top: -60px;
+        }
+    }
+
+    .family-top-details {
+        margin: 30px 0;
+        width: 330px;
+
+        h1 {
+            text-align: center;
+            font-size: 34px;
+            width: 330px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 15px;
+        }
+    }
+
+    .family-bottom-box {
+        width: 330px;
+        margin: 0 auto;
+        margin-right: 30px;
+        flex-direction: column;
+        padding-bottom: 80px;
+
+        img {
+            width: 100%;
+            height: 400px;
+            order: -1;
+        }
+    }
+
+    .family-bottom-details {
+        width: 330px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 40px;
+            text-align: center;
+            letter-spacing: -0.4px;
+            color: #242B37;
+        }
+
+        p {
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            letter-spacing: -0.1875px;
+            color: #242B37;
+        }
     }
 }

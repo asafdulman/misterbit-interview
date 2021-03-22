@@ -1,21 +1,14 @@
 .hero-box {
     width: 1110px;
     margin: 0 auto;
-
     display: flex;
-    padding-bottom: 200px;
+    padding: 250px 0 200px;
 }
 
 .hero-outer-box {
     width: 1440px;
     margin: 0 auto;
     background-color: #17192B;
-    // background-image: url('../../img/hero-bg-desktop.jpg');
-    // background-repeat: no-repeat;
-    // background-position-x: 350px;
-    // background-position-y: -150px;
-    // background-size: 100%;
-
 }
 
 .hero-left-box {
@@ -46,7 +39,12 @@
 
 }
 
-.hero-img {
+.hero-img-mobile {
+    display: none;
+}
+
+.hero-img-desktop {
+    display: block;
     position: absolute;
     width: 1000px;
     height: 850px;
@@ -66,14 +64,76 @@
     color: #FFFFFF;
 }
 
-
-
-
+.top-logo {
+    position: absolute;
+    top: 100px;
+}
 
 @media (max-width: 375px) {
 
+    .hero-outer-box {
+        width: 375px;
+        background-image: url('../../img/hero-bg-mobile.jpg');
+        background-repeat: no-repeat;
+        background-position-y: -20px;
+        z-index: 1;
+    }
+
     .hero-box {
-        // width: 330px;
-        // margin: 0 auto;
+        width: 375px;
+        margin: 0 auto;
+        padding-bottom: 135px;
+    }
+
+    .hero-img-desktop {
+        display: none;
+    }
+
+    .hero-img-mobile {
+        // display: block;
+        width: 375px;
+        height: 200px;
+        position: absolute;
+        object-fit: cover;
+        left: 0;
+        top: 0;
+    }
+
+    .hero-left-box {
+        width: 330px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font-weight: 300;
+            font-size: 32px;
+            line-height: 40px;
+            text-align: center;
+            letter-spacing: -0.4px;
+            color: #FFFFFF;
+        }
+
+        p {
+            margin-right: 10px;
+            width: 330px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            letter-spacing: -0.1875px;
+            color: #FFFFFF;
+        }
+
+        button {
+            padding: 25px 55px;
+        }
+    }
+    .top-logo {
+        position: absolute;
+        top: 195px;
+        left: 135px;
     }
 }
