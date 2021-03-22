@@ -1,29 +1,31 @@
 .navbar-box {
+    width: 1110px;
+    background-color: #17192B;
+    margin: 0 auto;
+    padding: 70px 0 140px;
+}
 
+.nav-bar-outer-box {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #17192B;;
 }
 .hamburger {
     display: none;
 }
 
-.navbar-left-box {
 
-    
-}
-
-.navbar-left-links {
-
-}
-
-.navbar-right-box {
-
-}
 
 
 @media (max-width: 375px) {
     .navbar-box {
+
     }
 
     .hamburger {
-
+        display: block;
+        position: fixed;
+        //top
+        //right
     }
 }

@@ -1,0 +1,48 @@
+.highlight-outer-box {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #111111;
+}
+
+.highlight-box {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 250px 0 120px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.highlight-left-box {
+    width: 445px;
+
+    h1 {
+        margin-top: 0;
+        width: 430px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+        color: #FFFFFF;
+    }
+
+    p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: -0.225px;
+        color: #FFFFFF;
+
+    }
+}
+
+.highlight-right-box {
+    width: 540px;
+}
+
+.highlight-box-line {
+    position: absolute;
+    top: 180px;
+}

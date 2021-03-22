@@ -1,7 +1,11 @@
-@import './cmps/footer';
 @import './cmps/navbar';
 @import './cmps/hero';
-
+@import './cmps/footer';
+@import './cmps/highlight';
+@import './cmps/highlightpreview';
+@import './cmps/family';
+@import './cmps/ready';
+@import './cmps/info';
 
 * {
     box-sizing: border-box;
@@ -9,12 +13,12 @@
 
 body {
     margin: 0;
-    // font-family: 'Livvic', sans-serif;
+    font-family: 'Spartan', sans-serif;
 }
 
 .app {
-    // width: 1440px;
-    // margin: 0 auto;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 button {

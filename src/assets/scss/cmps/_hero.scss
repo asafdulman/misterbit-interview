@@ -1,16 +1,70 @@
 .hero-box {
-    // width: 1110px;
-    // margin: 0 auto;
+    width: 1110px;
+    margin: 0 auto;
+
+    display: flex;
+    padding-bottom: 200px;
+}
+
+.hero-outer-box {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #17192B;
+    // background-image: url('../../img/hero-bg-desktop.jpg');
+    // background-repeat: no-repeat;
+    // background-position-x: 350px;
+    // background-position-y: -150px;
+    // background-size: 100%;
+
 }
 
 .hero-left-box {
+    width: 520px;
+    z-index: 1;
+
+    p {
+        width: 450px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: -0.225px;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+    }
+
+    button {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        border: 1px solid white;
+        padding: 10px 25px;
+        background-color: transparent;
+    }
 
 }
 
-.hero-right-box {
-
+.hero-img {
+    position: absolute;
+    width: 1000px;
+    height: 850px;
+    object-fit: cover;
+    right: 0;
+    top: 0;
 }
 
+.hero-right-box {}
+
+.hero-heading {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.8px;
+    color: #FFFFFF;
+}
 
 
 

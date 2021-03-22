@@ -1,0 +1,36 @@
+.ready-outer-box {
+    width: 1440px;
+    margin: 0 auto;
+    background-image: url('../../img/ready-bg-desktop.jpg');
+
+}
+
+.ready-box {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0;
+
+    h1 {
+        margin: 0;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+        color: #FFFFFF;
+
+    }
+
+    button {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        border: 1px solid white;
+        padding: 15px 35px;
+        background-color: transparent;
+    }
+}
