@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/misterbit-interview/static/css/main.18ca2aa4.chunk.css",
-    "main.js": "/misterbit-interview/static/js/main.eaeed9f1.chunk.js",
-    "main.js.map": "/misterbit-interview/static/js/main.eaeed9f1.chunk.js.map",
+    "main.css": "/misterbit-interview/static/css/main.0a23a8c4.chunk.css",
+    "main.js": "/misterbit-interview/static/js/main.4ece605c.chunk.js",
+    "main.js.map": "/misterbit-interview/static/js/main.4ece605c.chunk.js.map",
     "runtime-main.js": "/misterbit-interview/static/js/runtime-main.996ae10e.js",
     "runtime-main.js.map": "/misterbit-interview/static/js/runtime-main.996ae10e.js.map",
     "static/js/2.90fe5e27.chunk.js": "/misterbit-interview/static/js/2.90fe5e27.chunk.js",
@@ -10,13 +10,20 @@
     "static/js/3.c718c3ff.chunk.js": "/misterbit-interview/static/js/3.c718c3ff.chunk.js",
     "static/js/3.c718c3ff.chunk.js.map": "/misterbit-interview/static/js/3.c718c3ff.chunk.js.map",
     "index.html": "/misterbit-interview/index.html",
-    "static/css/main.18ca2aa4.chunk.css.map": "/misterbit-interview/static/css/main.18ca2aa4.chunk.css.map",
-    "static/js/2.90fe5e27.chunk.js.LICENSE.txt": "/misterbit-interview/static/js/2.90fe5e27.chunk.js.LICENSE.txt"
+    "static/css/main.0a23a8c4.chunk.css.map": "/misterbit-interview/static/css/main.0a23a8c4.chunk.css.map",
+    "static/js/2.90fe5e27.chunk.js.LICENSE.txt": "/misterbit-interview/static/js/2.90fe5e27.chunk.js.LICENSE.txt",
+    "static/media/enjoy-desktop.06399aa5.jpg": "/misterbit-interview/static/media/enjoy-desktop.06399aa5.jpg",
+    "static/media/family-bottom-desktop.957d3e79.jpg": "/misterbit-interview/static/media/family-bottom-desktop.957d3e79.jpg",
+    "static/media/family-gathering-desktop.03b16029.jpg": "/misterbit-interview/static/media/family-gathering-desktop.03b16029.jpg",
+    "static/media/hero-bg-desktop.b1340563.jpg": "/misterbit-interview/static/media/hero-bg-desktop.b1340563.jpg",
+    "static/media/info-img.515fcdd5.svg": "/misterbit-interview/static/media/info-img.515fcdd5.svg",
+    "static/media/logo.2bcec96d.svg": "/misterbit-interview/static/media/logo.2bcec96d.svg",
+    "static/media/global.scss": "/misterbit-interview/static/media/ready-bg-desktop.7404dbad.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.996ae10e.js",
     "static/js/2.90fe5e27.chunk.js",
-    "static/css/main.18ca2aa4.chunk.css",
-    "static/js/main.eaeed9f1.chunk.js"
+    "static/css/main.0a23a8c4.chunk.css",
+    "static/js/main.4ece605c.chunk.js"
   ]
 }
